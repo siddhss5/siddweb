@@ -1,0 +1,66 @@
+body {
+       padding: 0px;
+       margin: 0px;
+       background-color: #FFFFFF; /* background-color: #000000;*/
+       text-align: center;
+       font-size: 14px;
+       font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
+       color: #FFFFFF;
+	   /*Make background white, fades into to blue*/
+}
+
+#title {
+       background-color: #FFFFFF;
+       width: 100%;
+	   color: #000000;
+	   text-align: left;
+}
+
+#titleContent {
+	width:70%;
+	padding: 1% 0% 1% 15%;
+	background-color: inherit;
+}
+
+#title a{
+	color: #000000;
+	text-decoration: none;
+}
+
+#header img {
+	border: 0;
+	width: 70%;
+	margin: 5px 5px 5px 5px;
+	position: relative;
+	right: 2%;
+}
+
+#content {
+       overflow: hidden;
+       clear: both;
+	   float: left;
+       margin: 0.5% 0% 1% 15%;
+       width: 70%;
+       background-color: #FFFFFF; /*grey #8D8D8D*/
+       text-align: left;
+       padding: 0px;
+	   color: #000000;
+	   /*when new header in box, but box shadow to blue and background to white*/
+}
+
+
+#centerContentContainer {
+       background-color: inherit;
+       text-align: left;
+       /*padding: 5px;*/
+	   color: #000000;
+	   width:100%;
+	   /*left:2%;*/
+	   position: relative;
+	   font-size: 18px;
+}
+
+#centerContentContainer a {
+	color: #3399fe; /*color: #333333;*/
+	text-decoration: none;
+}
