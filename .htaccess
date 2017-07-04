@@ -1,3 +1,0 @@
-Options +FollowSymLinks
-RewriteEngine on
-RewriteRule (.*) https://homes.cs.washington.edu/~siddh/$1 [R=301,L]:
